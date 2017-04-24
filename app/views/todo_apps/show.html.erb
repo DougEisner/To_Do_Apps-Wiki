@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @todo_app.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @todo_app.url %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @todo_app.rating %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @todo_app.picture %>
+</p>
+
+<%= link_to 'Edit', edit_todo_app_path(@todo_app) %> |
+<%= link_to 'Back', todo_apps_path %>
